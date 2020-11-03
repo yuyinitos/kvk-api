@@ -96,6 +96,13 @@ final class SearchQuery implements QueryInterface
      */
     private $freeTextQuery;
 
+    /**
+     * Number indicating which page to fetch for pagination. Default = 1, showing the first 10 results.
+     *
+     * @var smallint
+     */
+    private $startPage;
+
     public function getStreet(): ?string
     {
         return $this->street;
@@ -236,6 +243,18 @@ final class SearchQuery implements QueryInterface
     public function setFreeTextQuery(string $freeTextQuery): SearchQuery
     {
         $this->freeTextQuery = $freeTextQuery;
+
+        return $this;
+    }
+
+        public function getStartPage(): ?string
+    {
+        return $this->startPage;
+    }
+
+    public function setStartPage(smallint $startPage): SearchQuery
+    {
+        $this->startPage = $startPage;
 
         return $this;
     }
