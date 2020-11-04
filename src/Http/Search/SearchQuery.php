@@ -274,6 +274,7 @@ final class SearchQuery implements QueryInterface
             'site' => $this->getSite(),
             'context' => $this->getContext(),
             'q' => $this->getFreeTextQuery(),
+            'startPage' => $this->getStartPage()
         ];
     }
 }
