@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Factory\Profile\Company;
+namespace Yuyinitos\KvkApi\Client\Factory\Profile\Company;
 
-use Werkspot\KvkApi\Client\Profile\Company\TradeNames;
+use Yuyinitos\KvkApi\Client\Profile\Company\TradeNames;
 
 interface TradeNamesFactoryInterface
 {

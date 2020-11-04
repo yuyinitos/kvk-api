@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Profile\Company;
+namespace Yuyinitos\KvkApi\Client\Profile\Company;
 
 final class BusinessActivity
 {

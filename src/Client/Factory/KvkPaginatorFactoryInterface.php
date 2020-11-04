@@ -1,8 +1,8 @@
 <?php
 
-namespace Werkspot\KvkApi\Client\Factory;
+namespace Yuyinitos\KvkApi\Client\Factory;
 
-use Werkspot\KvkApi\Client\KvkPaginatorInterface;
+use Yuyinitos\KvkApi\Client\KvkPaginatorInterface;
 
 interface KvkPaginatorFactoryInterface
 {

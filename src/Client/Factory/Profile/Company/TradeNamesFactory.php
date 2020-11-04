@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Factory\Profile\Company;
+namespace Yuyinitos\KvkApi\Client\Factory\Profile\Company;
 
-use Werkspot\KvkApi\Client\Factory\AbstractFactory;
-use Werkspot\KvkApi\Client\Profile\Company\TradeNames;
+use Yuyinitos\KvkApi\Client\Factory\AbstractFactory;
+use Yuyinitos\KvkApi\Client\Profile\Company\TradeNames;
 
 final class TradeNamesFactory extends AbstractFactory implements TradeNamesFactoryInterface
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Exception;
+namespace Yuyinitos\KvkApi\Exception;
 
 use Exception;
 

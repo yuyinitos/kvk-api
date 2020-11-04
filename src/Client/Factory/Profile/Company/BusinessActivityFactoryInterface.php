@@ -1,8 +1,8 @@
 <?php
 
-namespace Werkspot\KvkApi\Client\Factory\Profile\Company;
+namespace Yuyinitos\KvkApi\Client\Factory\Profile\Company;
 
-use Werkspot\KvkApi\Client\Profile\Company\BusinessActivity;
+use Yuyinitos\KvkApi\Client\Profile\Company\BusinessActivity;
 
 interface BusinessActivityFactoryInterface
 {

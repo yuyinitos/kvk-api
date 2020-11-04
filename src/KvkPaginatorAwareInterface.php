@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi;
+namespace Yuyinitos\KvkApi;
 
-use Werkspot\KvkApi\Client\KvkPaginatorInterface;
+use Yuyinitos\KvkApi\Client\KvkPaginatorInterface;
 
 interface KvkPaginatorAwareInterface
 {

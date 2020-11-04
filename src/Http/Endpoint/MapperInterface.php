@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Http\Endpoint;
+namespace Yuyinitos\KvkApi\Http\Endpoint;
 
 interface MapperInterface
 {

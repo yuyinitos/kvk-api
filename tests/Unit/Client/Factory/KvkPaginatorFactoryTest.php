@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test\Unit\Client\Factory;
+namespace Yuyinitos\KvkApi\Test\Unit\Client\Factory;
 
 use DateTime;
 use Mockery;
 use Mockery\MockInterface;
 use PHPUnit\Framework\TestCase;
-use Werkspot\KvkApi\Client\Factory\KvkPaginatorFactory;
-use Werkspot\KvkApi\Client\Factory\Profile\CompanyFactoryInterface;
-use Werkspot\KvkApi\Client\Profile\Company;
-use Werkspot\KvkApi\Client\Profile\Company\TradeNames;
+use Yuyinitos\KvkApi\Client\Factory\KvkPaginatorFactory;
+use Yuyinitos\KvkApi\Client\Factory\Profile\CompanyFactoryInterface;
+use Yuyinitos\KvkApi\Client\Profile\Company;
+use Yuyinitos\KvkApi\Client\Profile\Company\TradeNames;
 
 /**
  * @small

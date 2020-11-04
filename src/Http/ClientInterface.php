@@ -1,9 +1,9 @@
 <?php
 
-namespace Werkspot\KvkApi\Http;
+namespace Yuyinitos\KvkApi\Http;
 
 use Psr\Http\Message\ResponseInterface;
-use Werkspot\KvkApi\Http\Search\QueryInterface;
+use Yuyinitos\KvkApi\Http\Search\QueryInterface;
 
 interface ClientInterface
 {

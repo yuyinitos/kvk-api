@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test;
+namespace Yuyinitos\KvkApi\Test;
 
 use Mockery;
 use Mockery\MockInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Werkspot\KvkApi\Client\Factory\KvkPaginatorFactoryInterface;
-use Werkspot\KvkApi\Client\KvkPaginator;
-use Werkspot\KvkApi\Http\ClientInterface;
-use Werkspot\KvkApi\Http\Endpoint\MapperInterface;
-use Werkspot\KvkApi\Http\Search\ProfileQuery;
-use Werkspot\KvkApi\KvkClient;
-use Werkspot\KvkApi\Test\Unit\MockeryAssertionTrait;
+use Yuyinitos\KvkApi\Client\Factory\KvkPaginatorFactoryInterface;
+use Yuyinitos\KvkApi\Client\KvkPaginator;
+use Yuyinitos\KvkApi\Http\ClientInterface;
+use Yuyinitos\KvkApi\Http\Endpoint\MapperInterface;
+use Yuyinitos\KvkApi\Http\Search\ProfileQuery;
+use Yuyinitos\KvkApi\KvkClient;
+use Yuyinitos\KvkApi\Test\Unit\MockeryAssertionTrait;
 use function json_encode;
 
 /**

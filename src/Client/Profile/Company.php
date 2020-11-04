@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Profile;
+namespace Yuyinitos\KvkApi\Client\Profile;
 
 use DateTime;
-use Werkspot\KvkApi\Client\Profile\Company\Address;
-use Werkspot\KvkApi\Client\Profile\Company\BusinessActivity;
-use Werkspot\KvkApi\Client\Profile\Company\TradeNames;
+use Yuyinitos\KvkApi\Client\Profile\Company\Address;
+use Yuyinitos\KvkApi\Client\Profile\Company\BusinessActivity;
+use Yuyinitos\KvkApi\Client\Profile\Company\TradeNames;
 
 final class Company
 {

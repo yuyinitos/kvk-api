@@ -1,21 +1,21 @@
 {
-    "name": "werkspot/kvk-api",
+    "name": "yuyinitos/kvk-api",
     "description": "PHP KVK API client",
     "license": "MIT",
     "authors": [
         {
-            "name": "Laurens Laman",
-            "email": "laurens.laman@llaman.nl"
+            "name": "Eugène Spaan",
+            "email": "eugene@consumedia.nl"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Werkspot\\KvkApi\\": ["src/"]
+            "Yuyinitos\\KvkApi\\": ["src/"]
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Werkspot\\KvkApi\\Test\\": ["tests/"]
+            "Yuyinitos\\KvkApi\\Test\\": ["tests/"]
         }
     },
     "require": {

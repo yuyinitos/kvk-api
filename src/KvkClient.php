@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi;
+namespace Yuyinitos\KvkApi;
 
-use Werkspot\KvkApi\Client\Factory\KvkPaginatorFactoryInterface;
-use Werkspot\KvkApi\Client\KvkPaginatorInterface;
-use Werkspot\KvkApi\Exception\KvkApiException;
-use Werkspot\KvkApi\Http\ClientInterface;
-use Werkspot\KvkApi\Http\Endpoint\MapperInterface;
-use Werkspot\KvkApi\Http\Search\QueryInterface;
+use Yuyinitos\KvkApi\Client\Factory\KvkPaginatorFactoryInterface;
+use Yuyinitos\KvkApi\Client\KvkPaginatorInterface;
+use Yuyinitos\KvkApi\Exception\KvkApiException;
+use Yuyinitos\KvkApi\Http\ClientInterface;
+use Yuyinitos\KvkApi\Http\Endpoint\MapperInterface;
+use Yuyinitos\KvkApi\Http\Search\QueryInterface;
 
 final class KvkClient implements KvkClientInterface, KvkPaginatorAwareInterface
 {

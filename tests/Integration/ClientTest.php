@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test\Integration;
+namespace Yuyinitos\KvkApi\Test\Integration;
 
 use PHPUnit\Framework\TestCase;
-use Werkspot\KvkApi\Client\Profile\Company;
-use Werkspot\KvkApi\Http\Endpoint\Testing;
-use Werkspot\KvkApi\Http\Search\ProfileQuery;
-use Werkspot\KvkApi\Http\Search\SearchQuery;
-use Werkspot\KvkApi\KvkClientFactory;
+use Yuyinitos\KvkApi\Client\Profile\Company;
+use Yuyinitos\KvkApi\Http\Endpoint\Testing;
+use Yuyinitos\KvkApi\Http\Search\ProfileQuery;
+use Yuyinitos\KvkApi\Http\Search\SearchQuery;
+use Yuyinitos\KvkApi\KvkClientFactory;
 
 /**
  * @large
@@ -40,7 +40,7 @@ final class ClientTest extends TestCase
     /**
      * @test
      * @dataProvider getNonExistingKvkNumbers
-     * @expectedException \Werkspot\KvkApi\Http\Adapter\Guzzle\Exception\NotFoundException
+     * @expectedException \Yuyinitos\KvkApi\Http\Adapter\Guzzle\Exception\NotFoundException
      */
     public function get_profile_should_throw_exception(string $kvkNumber): void
     {

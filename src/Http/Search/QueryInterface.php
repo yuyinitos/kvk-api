@@ -1,6 +1,6 @@
 <?php
 
-namespace Werkspot\KvkApi\Http\Search;
+namespace Yuyinitos\KvkApi\Http\Search;
 
 interface QueryInterface
 {

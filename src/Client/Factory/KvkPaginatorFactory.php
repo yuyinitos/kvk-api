@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Factory;
+namespace Yuyinitos\KvkApi\Client\Factory;
 
-use Werkspot\KvkApi\Client\Factory\Profile\CompanyFactoryInterface;
-use Werkspot\KvkApi\Client\KvkPaginator;
-use Werkspot\KvkApi\Client\KvkPaginatorInterface;
-use Werkspot\KvkApi\Client\Profile\Company;
+use Yuyinitos\KvkApi\Client\Factory\Profile\CompanyFactoryInterface;
+use Yuyinitos\KvkApi\Client\KvkPaginator;
+use Yuyinitos\KvkApi\Client\KvkPaginatorInterface;
+use Yuyinitos\KvkApi\Client\Profile\Company;
 
 final class KvkPaginatorFactory extends AbstractFactory implements KvkPaginatorFactoryInterface
 {

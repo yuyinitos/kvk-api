@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Http\Adapter\Guzzle;
+namespace Yuyinitos\KvkApi\Http\Adapter\Guzzle;
 
 use GuzzleHttp\ClientInterface as GuzzleClientInterface;
 use GuzzleHttp\Exception\RequestException;
 use Psr\Http\Message\ResponseInterface;
-use Werkspot\KvkApi\Http\Adapter\Guzzle\Exception\Handler;
-use Werkspot\KvkApi\Http\ClientInterface;
-use Werkspot\KvkApi\Http\Endpoint\MapperInterface;
-use Werkspot\KvkApi\Http\Search\QueryInterface;
+use Yuyinitos\KvkApi\Http\Adapter\Guzzle\Exception\Handler;
+use Yuyinitos\KvkApi\Http\ClientInterface;
+use Yuyinitos\KvkApi\Http\Endpoint\MapperInterface;
+use Yuyinitos\KvkApi\Http\Search\QueryInterface;
 
 final class Client implements ClientInterface
 {

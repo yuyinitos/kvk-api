@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Factory;
+namespace Yuyinitos\KvkApi\Client\Factory;
 
 abstract class AbstractFactory
 {

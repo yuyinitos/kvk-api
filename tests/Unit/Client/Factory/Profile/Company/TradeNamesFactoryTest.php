@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test\Unit\Client\Factory\Profile\Company;
+namespace Yuyinitos\KvkApi\Test\Unit\Client\Factory\Profile\Company;
 
 use PHPUnit\Framework\TestCase;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\TradeNamesFactory;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\TradeNamesFactory;
 
 /**
  * @small

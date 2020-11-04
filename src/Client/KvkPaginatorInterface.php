@@ -1,6 +1,6 @@
 <?php
 
-namespace Werkspot\KvkApi\Client;
+namespace Yuyinitos\KvkApi\Client;
 
 interface KvkPaginatorInterface
 {

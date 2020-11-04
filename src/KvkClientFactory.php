@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi;
+namespace Yuyinitos\KvkApi;
 
 use GuzzleHttp\Handler\CurlHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Middleware;
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
-use Werkspot\KvkApi\Client\Factory\KvkPaginatorFactory;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\AddressFactory;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\BusinessActivityFactory;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\TradeNamesFactory;
-use Werkspot\KvkApi\Client\Factory\Profile\CompanyFactory;
-use Werkspot\KvkApi\Http\Adapter\Guzzle\Client as GuzzleClient;
-use Werkspot\KvkApi\Http\ClientInterface;
-use Werkspot\KvkApi\Http\Endpoint\MapperInterface;
+use Yuyinitos\KvkApi\Client\Factory\KvkPaginatorFactory;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\AddressFactory;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\BusinessActivityFactory;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\TradeNamesFactory;
+use Yuyinitos\KvkApi\Client\Factory\Profile\CompanyFactory;
+use Yuyinitos\KvkApi\Http\Adapter\Guzzle\Client as GuzzleClient;
+use Yuyinitos\KvkApi\Http\ClientInterface;
+use Yuyinitos\KvkApi\Http\Endpoint\MapperInterface;
 
 final class KvkClientFactory
 {

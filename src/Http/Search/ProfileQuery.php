@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Http\Search;
+namespace Yuyinitos\KvkApi\Http\Search;
 
 final class ProfileQuery implements QueryInterface
 {

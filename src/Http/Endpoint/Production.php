@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Http\Endpoint;
+namespace Yuyinitos\KvkApi\Http\Endpoint;
 
 use Exception;
-use Werkspot\KvkApi\Http\Endpoint\Exception\EndpointCouldNotBeMappedException;
+use Yuyinitos\KvkApi\Http\Endpoint\Exception\EndpointCouldNotBeMappedException;
 
 final class Production implements MapperInterface
 {

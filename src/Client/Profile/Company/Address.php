@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Profile\Company;
+namespace Yuyinitos\KvkApi\Client\Profile\Company;
 
-use Werkspot\KvkApi\Client\Profile\Company\Address\GpsCoordinates;
-use Werkspot\KvkApi\Client\Profile\Company\Address\RijksDriehoek;
+use Yuyinitos\KvkApi\Client\Profile\Company\Address\GpsCoordinates;
+use Yuyinitos\KvkApi\Client\Profile\Company\Address\RijksDriehoek;
 
 final class Address
 {

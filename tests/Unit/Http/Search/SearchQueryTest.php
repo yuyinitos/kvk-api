@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test\Unit\Http\Search;
+namespace Yuyinitos\KvkApi\Test\Unit\Http\Search;
 
 use PHPUnit\Framework\TestCase;
-use Werkspot\KvkApi\Http\Search\SearchQuery;
+use Yuyinitos\KvkApi\Http\Search\SearchQuery;
 
 /**
  * @small

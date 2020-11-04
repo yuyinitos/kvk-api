@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client;
+namespace Yuyinitos\KvkApi\Client;
 
-use Werkspot\KvkApi\Client\Exception\PageDoesNotExistException;
-use Werkspot\KvkApi\Client\Profile\Company as ProfileCompany;
+use Yuyinitos\KvkApi\Client\Exception\PageDoesNotExistException;
+use Yuyinitos\KvkApi\Client\Profile\Company as ProfileCompany;
 
 final class KvkPaginator implements KvkPaginatorInterface
 {

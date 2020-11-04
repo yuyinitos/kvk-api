@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test\Unit\Client\Factory\Profile\CompanyFactory;
+namespace Yuyinitos\KvkApi\Test\Unit\Client\Factory\Profile\CompanyFactory;
 
 use Mockery;
 use Mockery\MockInterface;
 use PHPUnit\Framework\TestCase;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\AddressFactoryInterface;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\BusinessActivityFactoryInterface;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\TradeNamesFactoryInterface;
-use Werkspot\KvkApi\Client\Factory\Profile\CompanyFactory;
-use Werkspot\KvkApi\Client\Profile\Company;
-use Werkspot\KvkApi\Client\Profile\Company\TradeNames;
-use Werkspot\KvkApi\Test\Unit\MockeryAssertionTrait;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\AddressFactoryInterface;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\BusinessActivityFactoryInterface;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\TradeNamesFactoryInterface;
+use Yuyinitos\KvkApi\Client\Factory\Profile\CompanyFactory;
+use Yuyinitos\KvkApi\Client\Profile\Company;
+use Yuyinitos\KvkApi\Client\Profile\Company\TradeNames;
+use Yuyinitos\KvkApi\Test\Unit\MockeryAssertionTrait;
 
 /**
  * @small

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test\Unit\Http\Adapter;
+namespace Yuyinitos\KvkApi\Test\Unit\Http\Adapter;
 
 use GuzzleHttp\ClientInterface as GuzzleClientInterface;
 use GuzzleHttp\Exception\RequestException;
@@ -10,10 +10,10 @@ use Mockery;
 use Mockery\MockInterface;
 use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\ResponseInterface;
-use Werkspot\KvkApi\Http\Adapter\Guzzle\Client;
-use Werkspot\KvkApi\Http\Endpoint\MapperInterface;
-use Werkspot\KvkApi\Http\Search\QueryInterface;
-use Werkspot\KvkApi\Test\Unit\MockeryAssertionTrait;
+use Yuyinitos\KvkApi\Http\Adapter\Guzzle\Client;
+use Yuyinitos\KvkApi\Http\Endpoint\MapperInterface;
+use Yuyinitos\KvkApi\Http\Search\QueryInterface;
+use Yuyinitos\KvkApi\Test\Unit\MockeryAssertionTrait;
 
 /**
  * @small
@@ -66,7 +66,7 @@ final class GuzzleTest extends TestCase
     /**
      * @test
      *
-     * @expectedException \Werkspot\KvkApi\Exception\KvkApiException
+     * @expectedException \Yuyinitos\KvkApi\Exception\KvkApiException
      */
     public function get_url_should_throw_exception(): void
     {

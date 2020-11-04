@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Factory\Profile\Company;
+namespace Yuyinitos\KvkApi\Client\Factory\Profile\Company;
 
-use Werkspot\KvkApi\Client\Factory\AbstractFactory;
-use Werkspot\KvkApi\Client\Profile\Company\Address;
-use Werkspot\KvkApi\Client\Profile\Company\Address\GpsCoordinates;
-use Werkspot\KvkApi\Client\Profile\Company\Address\RijksDriehoek;
+use Yuyinitos\KvkApi\Client\Factory\AbstractFactory;
+use Yuyinitos\KvkApi\Client\Profile\Company\Address;
+use Yuyinitos\KvkApi\Client\Profile\Company\Address\GpsCoordinates;
+use Yuyinitos\KvkApi\Client\Profile\Company\Address\RijksDriehoek;
 
 final class AddressFactory extends AbstractFactory implements AddressFactoryInterface
 {

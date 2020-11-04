@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Client\Factory\Profile;
+namespace Yuyinitos\KvkApi\Client\Factory\Profile;
 
 use DateTime;
-use Werkspot\KvkApi\Client\Factory\AbstractFactory;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\AddressFactoryInterface;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\BusinessActivityFactoryInterface;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\TradeNamesFactoryInterface;
-use Werkspot\KvkApi\Client\Profile\Company;
+use Yuyinitos\KvkApi\Client\Factory\AbstractFactory;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\AddressFactoryInterface;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\BusinessActivityFactoryInterface;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\TradeNamesFactoryInterface;
+use Yuyinitos\KvkApi\Client\Profile\Company;
 
 final class CompanyFactory extends AbstractFactory implements CompanyFactoryInterface
 {

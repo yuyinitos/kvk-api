@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Http\Endpoint\Exception;
+namespace Yuyinitos\KvkApi\Http\Endpoint\Exception;
 
-use Werkspot\KvkApi\Exception\KvkApiException;
+use Yuyinitos\KvkApi\Exception\KvkApiException;
 
 final class EndpointCouldNotBeMappedException extends KvkApiException
 {

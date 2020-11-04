@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi;
+namespace Yuyinitos\KvkApi;
 
-use Werkspot\KvkApi\Client\KvkPaginatorInterface;
-use Werkspot\KvkApi\Http\Search\QueryInterface;
+use Yuyinitos\KvkApi\Client\KvkPaginatorInterface;
+use Yuyinitos\KvkApi\Http\Search\QueryInterface;
 
 interface KvkClientInterface
 {

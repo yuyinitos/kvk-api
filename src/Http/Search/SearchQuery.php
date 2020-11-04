@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Http\Search;
+namespace Yuyinitos\KvkApi\Http\Search;
 
 /**
  * Class SearchQuery
@@ -99,7 +99,7 @@ final class SearchQuery implements QueryInterface
     /**
      * Number indicating which page to fetch for pagination. Default = 1, showing the first 10 results.
      *
-     * @var smallint
+     * @var int
      */
     private $startPage;
 
@@ -247,12 +247,12 @@ final class SearchQuery implements QueryInterface
         return $this;
     }
 
-        public function getStartPage(): ?string
+        public function getStartPage(): ?int
     {
         return $this->startPage;
     }
 
-    public function setStartPage(smallint $startPage): SearchQuery
+    public function setStartPage(int $startPage): SearchQuery
     {
         $this->startPage = $startPage;
 

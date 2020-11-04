@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test\Unit\Http\Endpoint;
+namespace Yuyinitos\KvkApi\Test\Unit\Http\Endpoint;
 
 use PHPUnit\Framework\TestCase;
-use Werkspot\KvkApi\Http\Endpoint\MapperInterface;
-use Werkspot\KvkApi\Http\Endpoint\Production;
+use Yuyinitos\KvkApi\Http\Endpoint\MapperInterface;
+use Yuyinitos\KvkApi\Http\Endpoint\Production;
 
 /**
  * @small
@@ -30,7 +30,7 @@ final class ProductionTest extends TestCase
 
     /**
      * @test
-     * @expectedException \Werkspot\KvkApi\Http\Endpoint\Exception\EndpointCouldNotBeMappedException
+     * @expectedException \Yuyinitos\KvkApi\Http\Endpoint\Exception\EndpointCouldNotBeMappedException
      */
     public function mapping_invalid_key_throws_exception(): void
     {

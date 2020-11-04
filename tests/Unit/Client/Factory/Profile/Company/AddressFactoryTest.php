@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Werkspot\KvkApi\Test\Unit\Client\Factory\Profile\Company;
+namespace Yuyinitos\KvkApi\Test\Unit\Client\Factory\Profile\Company;
 
 use PHPUnit\Framework\TestCase;
-use Werkspot\KvkApi\Client\Factory\Profile\Company\AddressFactory;
-use Werkspot\KvkApi\Client\Profile\Company\Address\GpsCoordinates;
-use Werkspot\KvkApi\Client\Profile\Company\Address\RijksDriehoek;
+use Yuyinitos\KvkApi\Client\Factory\Profile\Company\AddressFactory;
+use Yuyinitos\KvkApi\Client\Profile\Company\Address\GpsCoordinates;
+use Yuyinitos\KvkApi\Client\Profile\Company\Address\RijksDriehoek;
 
 /**
  * @small
