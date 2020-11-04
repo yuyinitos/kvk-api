@@ -56,7 +56,8 @@ final class CompanyFactory extends AbstractFactory implements CompanyFactoryInte
             $this->extractIntegerOrNull('employees', $data),
             new DateTime($data['foundationDate'] ?? 'NOW'),
             new DateTime($data['registrationDate'] ?? $data['foundationDate'] ?? 'NOW'),
-            $this->extractAddresses($data)
+            $this->extractAddresses($data),
+            $this->extractArrayOrNull('websites', $data)
         );
     }
 
