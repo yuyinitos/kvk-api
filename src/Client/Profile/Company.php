@@ -43,6 +43,8 @@ final class Company
 
     private $addresses;
 
+    private $websites;
+
     public function __construct(
         int $kvkNumber,
         ?string $branchNumber = null,
@@ -59,7 +61,8 @@ final class Company
         ?int $employees,
         DateTime $foundationDate,
         DateTime $registrationDate,
-        ?array $addresses = null
+        ?array $addresses = null,
+        ?array $websites = null
     ) {
         $this->kvkNumber = $kvkNumber;
         $this->branchNumber = $branchNumber;
@@ -77,6 +80,7 @@ final class Company
         $this->foundationDate = $foundationDate;
         $this->registrationDate = $registrationDate;
         $this->addresses = $addresses;
+        $this->websites = $websites;
     }
 
     public function getKvkNumber(): int
@@ -163,5 +167,13 @@ final class Company
     public function getAddresses(): ?array
     {
         return $this->addresses;
+    }
+
+    /**
+     * @return Website[]
+     */
+    public function getWebsites(): ?array
+    {
+        return $this->websites ;
     }
 }
