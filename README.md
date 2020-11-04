@@ -31,6 +31,7 @@ $profileQuery->setKvkNumber('18079951');
 
 $kvkPaginator = $client->getProfile($profileQuery);
 
+
 foreach ($kvkPaginator->getItems() as $company) {
     // {your code}
 }
